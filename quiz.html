@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/81478abc59.js" crossorigin="anonymous" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Quizz App</title>
+</head>
+<body>
+
+    <nav>
+        <div class="quiz-process-bar">
+            <a href="#" data-icon="" class="icon icon-margin lightgray-hover"></a>
+            <div >
+                <div id="progress-bar" class="bar-inner">
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="quiz-container">
+
+        <div id="question-container" class="question-container">
+
+            <img class="question-image hide" src="images/treasure-chest.png" alt="">
+
+            <h2 id="question" class="left">¿Cuanto es 2 + 2?</h2>
+
+            <!-- <p class="lightgray-highlight">¡Complestaste la lección! <span class="golden-highlight small-title">+10 EXP</span></p>
+            <p class="lightgray-highlight">Super Bono <span class="golden-highlight small-title">+3 EXP</span></p> -->
+
+            <div id="answer-buttons" class="grid-answers">
+                <button class="button">3</button>
+                <button class="button">4</button>
+                <button class="button">2</button>
+                <button class="button">4</button>
+
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="wrong-btn" class="wrong-button button">Saltar</button>
+            <button id="next-btn" class="next-button button">Comprobar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
